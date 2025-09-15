@@ -1,7 +1,7 @@
 import socket
 import os
 
-def client(host="192.168.1.47", port=8081): # Cria client
+def client(host="127.0.0.1", port=8081): # Cria client
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server_add = (host, port)
